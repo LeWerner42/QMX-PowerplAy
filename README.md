@@ -31,3 +31,12 @@ In case of failiure to negotiate the requested power level either the highest po
 The step-down (`12V` output) only works if the USB voltage is `> 12V`.
 Jumpers `JP1` and `JP2` can be used to change the negotiated power according to the capabilities of the used supply.
 The Power select Jumpers are NOT hot-swappable. Change them only when the device is unconnected.
+
+# Authors
+This board has been developed specifically for SOTA and POTA purposes by Pol (HB9IKL) and Lennart (HB9IKK).
+
+# License
+![license.png](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)
+
+This work is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License. 
+(http://creativecommons.org/licenses/by-sa/3.0/)
