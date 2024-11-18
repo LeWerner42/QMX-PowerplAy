@@ -13,9 +13,8 @@ J3 (5.5mm) is connected to the stepped-down 12V for supplying the QMX
 ![schematic](./powerplay/schematic.png "Board Schematic")
 
 ### Manufacturing
-PCBs can be ordered with the gerbers in [fabrication](./powerplay/fabrication).
-
-The [Component BOM](./powerplay/bom/ibom.html) lists all neccessary components for soldering.
+PCBs can be ordered with the gerbers in [fabrication](./powerplay/fabrication).  
+The [Component BOM](https://lewerner42.github.io/QMX-PowerplAy/powerplay/bom/ibom.html) [`powerplay/bom/ibom.html`] lists all neccessary components for soldering.
 Be aware of Capacitor Voltage ratings (>= 20V) for capacitors connected to USB power.
 ![rendering](./powerplay/powerplay.png "Board Render")
 
