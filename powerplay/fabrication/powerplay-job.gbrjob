@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.10-7.0.10~ubuntu20.04.1"
     },
-    "CreationDate": "2024-10-07T18:02:44+02:00"
+    "CreationDate": "2024-11-18T10:21:58+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "powerplay",
       "GUID": "706f7765-7270-46c6-9179-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "1"
     },
     "Size": {
       "X": 62.1,
