@@ -19,5 +19,15 @@ Be aware of Capacitor Voltage ratings (>= 20V) for capacitors connected to USB p
 ![rendering](./powerplay/powerplay.png "Board Render")
 
 ## Case
+The case is entirely 3D printable and files can be accessed in the [Case](./Case) folder.
+The `12V` output is labled `QMX` and the USB power (`15V` or `20V`) is labled `PA`.
 
 ## Usage
+No Substantial Load should be attached to the barrel jacks when powering up.
+The QMX and PA can be connected during power-up.
+Successfull power negotiation is indicated by LED 2 (`D2`) breathing.
+LED 1 (`D1`) indicates if power is present at all.
+In case of failiure to negotiate the requested power level either the highest possible negotiated power is present (e.g. `20V`, `3A` even though `100W` werer requested) or only `5V` are present on the PA port.
+The step-down (`12V` output) only works if the USB voltage is `> 12V`.
+Jumpers `JP1` and `JP2` can be used to change the negotiated power according to the capabilities of the used supply.
+The Power select Jumpers are NOT hot-swappable. Change them only when the device is unconnected.
