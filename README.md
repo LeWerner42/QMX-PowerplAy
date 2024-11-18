@@ -6,7 +6,7 @@ A `12V, 5A` switching regulator powers the QMX. Power Negotiation can be selecte
 
 ## Hardware
 ### Schematic
-![schematic](./schematic.png "Board Schematic")
+![schematic](./powerplay/schematic.png "Board Schematic")
 
 ## Case
 
